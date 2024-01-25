@@ -55,7 +55,7 @@
 
 <template>
     <MyAppHeader />
-    <MyAppMain :store.yugiohCard ="elem"  @searched="searchCardsByArchetype()"/>
+    <MyAppMain  @searched="searchCardsByArchetype()"/>
     <MyAppFooter />
 </template>
 

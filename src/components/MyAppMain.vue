@@ -19,7 +19,7 @@ export default {
     <main class="bg-warning">
         <div class="container">
             <form class="py-4">
-                <select v-model="store.searchArchetype" @change="$emit('searched')">
+                <select v-model="store.searchArchetype" @click="$emit('searched')">
 
                     <option :value="type.archetype_name" 
                     v-for="(type, a) 
