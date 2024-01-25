@@ -21,9 +21,6 @@
 </script>
 
 <template>
-    <h1>
-        Mia app
-    </h1>
     <MyAppHeader />
     <MyAppMain />
     <MyAppFooter />
